@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!-- 액션 버튼으로써 나타나는 "검색" 아이템  -->
+    <item
+            android:id="@+id/action_search"
+            android:title="로그아웃"
+            android:icon="@drawable/logout"
+            app:showAsAction="ifRoom" />
+
+    <!-- 액션 버튼으로써 나타나는 "공유" 액션 아이템 -->
+    <item
+            android:id="@+id/action_share"
+            android:title="친구추가"
+            android:icon="@drawable/plus"
+            app:showAsAction="ifRoom" />
+
+</menu>
+
